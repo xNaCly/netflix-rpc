@@ -1,6 +1,7 @@
-# Netflix-RPC
+# Netflix-RPC - Netflix-Discord integration
 
-#### Netflix-Discord integration
+<img src="https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/asset1.png">
+
 
 # !disclaimer: use at your own risk!
 
