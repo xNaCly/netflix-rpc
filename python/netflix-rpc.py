@@ -28,7 +28,7 @@ except:
 	print("config.csv not found...")
 	print("creating config.csv file...")
 	print("requesting newest api version from /xNaCly/netflix-rpc/main/shakti")
-	shakti = requests.get("https://raw.githubusercontent.com/xNaCly/netflix-rpc/main/shakti").text
+	shakti = requests.get("https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/shakti").text
 	with open("config.csv","w") as f:
 		f.write(f"shaktivver|cookie\n{shakti}|COOKIEPLACEHOLDER")
 	print("created config.csv with newest api version, please replace <COOKIEPLACEHOLDER> with your cookie!")
