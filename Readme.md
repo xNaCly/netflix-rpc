@@ -21,3 +21,5 @@
 ### Usage:
 
 1. [Python](https://github.com/xNaCly/netflix-rpc/tree/master/python)
+2. ~[Typescript&Javascript]()~ (in work)
+3. ~[executable]()~ (in work)
