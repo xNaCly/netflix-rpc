@@ -1,7 +1,8 @@
 # Netflix-RPC - Netflix-Discord integration
 
-<img src="https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/asset1.png">
-<img src="">
+<img src="https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/assets/asset1.png">
+<img src="https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/assets/asset2.png">
+
 # !disclaimer: use at your own risk!
 
 ### Data:
@@ -20,3 +21,5 @@
 ### Usage:
 
 1. [Python](https://github.com/xNaCly/netflix-rpc/tree/master/python)
+2. ~[Typescript&Javascript]()~ (in work)
+3. ~[executable]()~ (in work)
