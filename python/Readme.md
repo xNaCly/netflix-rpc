@@ -10,4 +10,4 @@
 
 4. `>>> python3.9 netflix-rpc.py` (will create a config.csv file with the newest netflix api version)
 
-5. get your cookie from the netflix website & replace `COOKIEPLACEHOLDER` in `config.csv` with it
+5. [get your cookie](https://github.com/xNaCly/netflix-rpc/blob/master/doc/Cookie.md) from the netflix website & replace `COOKIEPLACEHOLDER` in `config.csv` with it
