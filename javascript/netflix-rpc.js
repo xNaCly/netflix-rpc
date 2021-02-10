@@ -8,7 +8,9 @@ async function reconnect() {
 	try {
 		await login();
 	} catch (error) {
-		console.error("discord not open:", error);
+		if (!cookie || cookie == "COOKIEPLACEHOLDER") {
+			throw "Cookie missing,\nplease go to https://github.com/xNaCly/netflix-rpc/tree/master/javascript and follow the steps.\n";
+		}
 		setTimeout(async () => {
 			await reconnect();
 		}, 1000 * 10);
@@ -24,11 +26,10 @@ async function send_req() {
 
 async function get_history_last() {
 	const api_v = await send_req();
-	const history = await (
-		await fetch(`https://www.netflix.com/api/shakti/${api_v.split("\n")[0]}/viewingactivity/`, {
-			headers: { cookie },
-		})
-	).json();
+	let history = await fetch(`https://www.netflix.com/api/shakti/${api_v.split("\n")[0]}/viewingactivity/`, {
+		headers: { cookie },
+	});
+	history = await history.json();
 	return history.viewedItems[0];
 }
 
@@ -36,7 +37,6 @@ async function login() {
 	const rpc = new Client({
 		transport: "ipc",
 	});
-
 	item = await get_history_last();
 
 	rpc.on("ready", () => {
