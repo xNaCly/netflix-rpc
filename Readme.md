@@ -20,6 +20,6 @@
 
 ### Usage:
 
-1. [Python](https://github.com/xNaCly/netflix-rpc/tree/master/python)
-2. [Javascript](https://github.com/xNaCly/netflix-rpc/tree/master/javascript)
+1. [Javascript](https://github.com/xNaCly/netflix-rpc/tree/master/javascript)
+2. ~[Python](https://github.com/xNaCly/netflix-rpc/tree/master/python)~ (discontinued) see [ed94b9d](https://github.com/xNaCly/netflix-rpc/commit/ed94b9db8693befc7ef7224a9a225d3d9d6081ff)
 3. ~[executable]()~ (in work)
