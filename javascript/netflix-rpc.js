@@ -34,7 +34,7 @@ reconnect();
 var api_ver;
 
 async function send_req() {
-	api_ver = await fetch("https://raw.githubusercontent.com/xNaCly/netflix-rpc/master/shakti");
+	api_ver = await fetch("https://rawcdn.githack.com/xNaCly/netflix-rpc/5753c6476cbc0866733c089d4fadc40c80f49f8b/shakti");
 	api_ver = await api_ver.text();
 	api_ver = api_ver.trim();
 }
